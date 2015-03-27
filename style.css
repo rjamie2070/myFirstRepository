@@ -1,0 +1,101 @@
+body {
+	background-color: #B36B3D;
+}
+
+header {
+	border: solid black 10px;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: #DC9A6D;
+	font-family: Georgia, Serif;
+	width: 80%;
+	margin: auto;
+}
+
+#entrance {
+	border: solid black 10px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #DC9A6D;
+	padding: 10px;
+	text-decoration: none;
+	color: #622902;
+	font-family: Georgia, Serif;
+	font-size: 1.5em;
+	margin: 20px auto;
+	display: block;
+	width: 50%;
+}
+
+#entrance:hover {
+	background-color: #FFCCA9;
+}
+
+
+/*   This is for the organizing of list divs */
+/**********************        *******/
+#playgroundWrapper {
+	width: 90%;
+	margin: auto;
+	padding: 0;
+}
+/******************  CLEAR FLOATS  *****/
+#clear {
+	clear: both;
+}
+/******************************************/
+
+/**************** PICTURE STUFF ************/
+.pictureWrapper {
+	width: 45%;
+	height: auto;
+	border: solid black 5px;
+	margin: auto;
+}
+
+.mainPagePicture {
+	width: 100%;
+	height: auto;
+}
+
+#ballparkPic {
+	width: 100%;
+	height: auto;
+}
+/******************************************/
+
+
+#leftList {
+	float: left;
+}
+
+#rightList {
+	float: right;
+}
+
+#pictureReveal {
+	display: block;
+	margin: 20px auto;
+}
+
+.listWrapper {
+	width: 48%;
+	border: solid black 5px;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #DC9A6D;
+}
+.listWrapper button {
+	margin: auto;
+	display: block;
+}
+
+.listWrapper h4 {
+	text-align: center;
+	margin: 10px;
+	font-family: Georgia, Serif;
+}
+
+
+
